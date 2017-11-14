@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<title>ahmed z'n library</title>
+<script src="lib/library.js"></script>
+<head>
+
+<style>
+.boven_old {
+    top:100px;
+    left:150px;
+    position: absolute;
+	display: block;
+}
+
+.onder {
+    top:105px;
+    left:275px;
+    position: absolute;
+	display: block;
+
+}
+
+.boven {
+    top:50px;
+    left:75px;
+    position: absolute;
+    width:100px;
+    height:100px;
+	background-image: url("images/cartoon21.png");
+	border-radius: 50%;
+	background-repeat: no-repeat;
+}
+
+</style>
+
+<body>
+
+<button onclick="ahmed.toggleShow('#Eindhoven')">Klik voor magie</button>
+
+<div id="Eindhoven">
+  <h2>Eindhoven</h2>
+  <p>Eindhoven is de slimste stad van de wereld.</p>
+</div>
+
+
+
+
+
+<img onmousemove="ahmed.iets(event)" src="images/cartoon2.png" width="780" height="451" class="onder" id="onderstefoto">
+<div>
+<div onmousemove="ahmed.iets(event)" class="boven" id="bovenstefoto"></div>
+
+</div>
+
+
+</body>
+</html>
