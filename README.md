@@ -1,10 +1,10 @@
-Korte Inhoud
+## Korte Inhoud
 Een functie waarbij je over een foto heen kan hoveren en op die hover een ander foto ziet.
 
-Code Voorbeeld
+## Code Voorbeeld
 De achtergrond foto en de bovenste foto kun je zelf gemakkelijk aanwijzen via de css. Bij de classes "boven" en "onder" zie je een linkje naar de img en die kun je aanpassen. Verder kun je bij class "boven" de pixels aanpassen van het rondje. Je kunt het kleiner of groter maken, je hoeft alleen de width en length te veranderen. Ook kun je de positie van de bovenste foto en de onderste foto aanpassen bij library.js, alleen deze is zo gemaakt dat het perfect klopt bij deze foto's. Dus je moet zelf kijken hoe je deze wilt aanpassen op je eigen foto's. Dit kun je veranderen door de cijfers "135" en "325" te veranderen bij relativeX en relativeY
 
-Bijvoorbeeld:
+## Bijvoorbeeld:
 
 .onder {
     top:105px;
@@ -32,11 +32,11 @@ img.style.backgroundPosition = "" + (325-relativeX) + "px " + (155-relativeY) + 
 
 Bij de backgroundPosition kun je de positie van je eigen plaatje aanpassen door 325 (x-as) te veranderen en 155 (y-as) te veranderen.
 
-Demo
+## Demo
 Zie Demo
 
-Motivatie
+## Motivatie
 Een deel van mijn portfolio, waar ik mijn javascript vaardigheden kon aantonen en ook iets leuks van heb kunnen maken.
 
-Installatie
+## Installatie
 Download Library.js en index.html
