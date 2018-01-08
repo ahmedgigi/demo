@@ -1,17 +1,4 @@
 var ahmed = new Object();
-ahmed.styleElement = function (element, prop, val) {
-  element.style.setProperty(prop, val);
-};
-ahmed.toggleShow = function (sel) {
-  var i, x = ahmed.getElements(sel), l = x.length;
-  for (i = 0; i < l; i++) {    
-    if (x[i].style.display == "none") {
-      ahmed.styleElement(x[i], "display", "block");
-    } else {
-      ahmed.styleElement(x[i], "display", "none");
-    }
-  }
-};
 
 ahmed.getElements = function (id) {
   if (typeof id == "object") {
