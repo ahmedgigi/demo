@@ -33,7 +33,7 @@ img.style.backgroundPosition = "" + (325-relativeX) + "px " + (155-relativeY) + 
 Bij de backgroundPosition kun je de positie van je eigen plaatje aanpassen door 325 (x-as) te veranderen en 155 (y-as) te veranderen.
 
 ## Demo
-Zie Demo
+Zie [Demo](http://i343418.iris.fhict.nl/semester4/eigenlibrary/)
 
 ## Motivatie
 Een deel van mijn portfolio, waar ik mijn javascript vaardigheden kon aantonen en ook iets leuks van heb kunnen maken.
