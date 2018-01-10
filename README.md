@@ -3,6 +3,7 @@ Een functie waarbij je over een foto heen kan hoveren en op die hover een ander 
 
 ## Code Voorbeeld
 De achtergrond foto en de bovenste foto kun je zelf gemakkelijk aanwijzen via de css. Bij de classes "boven" en "onder" zie je een linkje naar de img en die kun je aanpassen. Verder kun je bij class "boven" de pixels aanpassen van het rondje. Je kunt het kleiner of groter maken, je hoeft alleen de width en length te veranderen. Ook kun je de positie van de bovenste foto en de onderste foto aanpassen bij library.js, alleen deze is zo gemaakt dat het perfect klopt bij deze foto's. Dus je moet zelf kijken hoe je deze wilt aanpassen op je eigen foto's. Dit kun je veranderen door de cijfers "135" en "325" te veranderen bij relativeX en relativeY
+Toevoeging: Je kunt ook de posities van je foto zelf bepalen. Door alleen de variabelen ahmed_left,right,up of down te veranderen kun je gemakkelijk je eigen positie bepalen
 
 ## Bijvoorbeeld:
 
